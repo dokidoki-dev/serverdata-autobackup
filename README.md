@@ -1,5 +1,5 @@
 # serverdata-autobackup
-服务器数据自动备份
+服务器数据自动备份、CPU占用率告警功能
 
 使用的阿里云oss依赖于此，请安装  
 对于CentOS、RHEL、Fedora系统，请执行以下命令安装python-devel。  
