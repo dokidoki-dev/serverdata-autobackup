@@ -13,3 +13,14 @@ class Config:
     web_path_backup = ""  # 网站web备份文件夹
     web_file_path = ""  # 网站web文件路径
     web_tmp_path_backup = ""  # 网站web文件临时备份路径
+
+
+class Tmp_var:
+    """
+    存储全局变量(非配置)
+    此处变量不可人为手动修改，必须使用此处设置的默认值
+    """
+    # 是否发送了告警邮件 必须为False， 如果被程序修改为True后，只能重启程序后才可以再次发送告警邮件，用来防止服务器占用过高导致频繁邮件告警
+    if_send = False
+    # 邮件发送次数
+    sends_mail_num = 0

@@ -2,7 +2,7 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from module.logger import log
-from module.setting import Config
+from setting import Config
 
 logger = log()
 

@@ -2,7 +2,7 @@ import subprocess
 import shutil
 import os
 from module.logger import log
-from module.setting import Config
+from setting import Config
 
 logger = log()
 

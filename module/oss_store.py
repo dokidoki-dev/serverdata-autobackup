@@ -1,6 +1,6 @@
 import oss2
 import os
-from module.setting import Config
+from setting import Config
 from module.logger import log
 
 logger = log()

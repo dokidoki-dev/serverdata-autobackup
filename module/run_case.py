@@ -3,7 +3,8 @@ import time
 from module.Internet_security import Security
 from module.oss_store import AliyunOSS
 from module.logger import log
-from module.setting import Config
+from setting import Config
+from module.cpu_info import CPU_INFO
 
 logger = log()
 
@@ -73,3 +74,11 @@ def run():
     if not result:
         return False
     return True
+
+
+def cpu_run():
+    # cpu占用率检测
+    result = CPU_INFO.cpu_warn()
+    return result
+
+
