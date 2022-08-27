@@ -9,3 +9,6 @@
 
 最后导入依赖  
 `pip3 install -r requirements.txt`
+
+
+启动时，将脚本放在后台运行即可
